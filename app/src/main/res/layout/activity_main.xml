@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtCurrentSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Km\h"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        />
+
+    <CheckBox
+        android:id="@+id/chkMetricUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use metric units?"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_location"
+        android:text="text view"
+        android:layout_marginTop="500dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="Get Location" />
+
+
+</RelativeLayout>
